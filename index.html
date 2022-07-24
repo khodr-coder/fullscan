@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Full Scan Home Inspections LLC</title>
+  <!-- BootStrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/56647cf8a2.js" crossorigin="anonymous"></script>
+  <!-- delete -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+  <link rel="stylesheet" href="gallery-grid.css">
+  <!--  -->
+</head>
+
+<body>
+  <!-- -->
+  <section id="top-portion">
+    <p style="text-align:center;"><img src="images/logo.png" alt="Logo"></p>
+    <br>
+    <h1> <a href="tel:313-467-9085">313-467-9085</a></h1>
+  </section>
+  <!-- -->
+  <hr style="height:3px;border-width:0;color:rgb(16, 36, 61);background-color:rgb(16, 36, 61)">
+  <!-- -->
+  <div class="slider">
+    <div class="slides">
+      <!--radio buttons start-->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <input type="radio" name="radio-btn" id="radio5">
+      <input type="radio" name="radio-btn" id="radio6">
+      <input type="radio" name="radio-btn" id="radio7">
+      <!--radio buttons end-->
+      <!--slide images start-->
+      <div class="slide first">
+        <img src="images/p1.png" alt="" style="float: right;">
+      </div>
+      <div class="slide">
+        <img src="images/p2.png" alt="" style="float: right;">
+      </div>
+      <div class="slide">
+        <img src="images/p3.png" alt="" style="float: right;">
+      </div>
+      <div class="slide">
+        <img src="images/p4.png" alt="" style="float: right;">
+      </div>
+      <div class="slide">
+        <img src="images/p5.png" alt="" style="float: right;">
+      </div>
+      <div class="slide">
+        <img src="images/p6.png" alt="" style="float: right;">
+      </div>
+      <div class="slide">
+        <img src="images/p7.png" alt="" style="float: right;">
+      </div>
+      <!--slide images end-->
+      <!--automatic navigation start-->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+        <div class="auto-btn5"></div>
+        <div class="auto-btn6"></div>
+        <div class="auto-btn7"></div>
+      </div>
+      <!--automatic navigation end-->
+    </div>
+    <!--manual navigation start-->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+      <label for="radio5" class="manual-btn"></label>
+      <label for="radio6" class="manual-btn"></label>
+      <label for="radio7" class="manual-btn"></label>
+    </div>
+    <!--manual navigation end-->
+  </div>
+  <!--image slider end-->
+
+  <script type="text/javascript">
+    var counter = 1;
+    setInterval(function() {
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if (counter > 7) {
+        counter = 1;
+      }
+    }, 5000);
+  </script>
+  <!---->
+  <hr style="height:1px;border-width:0;color:rgb(16, 36, 61);background-color:rgb(16, 36, 61)">
+  <!---->
+  <section id="info">
+    <style>
+      button {
+        display: inline-block;
+        background-color: #9c9f9f;
+        color: #ffffff;
+        border-color: #9c9f9f;
+        text-align: center;
+        font-size: 23px;
+        padding-top: 5px;
+        width: 10em;
+        transition: all 0.5s;
+        cursor: pointer;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        margin: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+      button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+
+      button:hover {
+        background-color: #6b6c6c;
+      }
+
+      button:hover span {
+        padding-right: 25px;
+      }
+
+      button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    </style>
+
+
+
+  </section>
+  <!---->
+  <section id="about-us">
+    <h2 class="about-us">About us: </h2>
+    <hr style="height:1px;border-width:0;color:rgb(16, 36, 61);background-color:rgb(16, 36, 61)">
+    <h3 class="weatwai"> We are a Certified Professional Inspection company dedicated to delivering the highest quality of work to our wonderful clients.</h3>
+
+
+    <section id="imgcpi">
+      <hr style="height:1px;border-width:0;color:rgb(16, 36, 61);background-color:rgb(16, 36, 61)">
+      <h4 class="cpi-certified">CPI Certified</h4>
+      <img class="cpi" src="images/cpi.png" alt="centered image" width="275">
+    </section>
+    <!---->
+    <section id="reviews">
+      <hr style="height:1px;border-width:0;color:rgb(16, 36, 61);background-color:rgb(16, 36, 61)">
+      <h2 class="info-h2"> See what others are saying about us... </h2>
+      <div class=" revws container gallery-container">
+
+
+        <div class="row ">
+
+          <div class="col col-sm">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Reyam Rashed</h5>
+                <p class="card-text">Shout to Ahmed for doing an amazing job on my house inspection.
+                  Ahmed was very professional.
+                  Provided us with full details of every piece in the house from the interior to the exterior, well detailed inspection.
+                  Took his time inspecting the house.
+                  would highly recommend him to anyone..</p>
+              </div>
+              <ul class="list-group list-group-flush">
+
+              </ul>
+              <div class="card-body">
+                <a href="https://www.google.com/search?q=fullscan+home+inspections&oq=fullscan+home+inspections+&aqs=chrome..69i57j69i60.3252j0j7&sourceid=chrome&ie=UTF-8" class="card-link">More Reviews</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col col-sm">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Safwan Muthana</h5>
+                <p class="card-text">I have bought multiple properties and dealt with all kinds of inspectors. Always felt like I was not getting what I payed for and that I was being played. So, I called Ahmed to inspect one of the houses to make
+                  sure that there were no problems. Ahmed showed up and inspected every inch of the house thoroughly. After he was done, he gave me a detailed report on the house and made sure that I was not being played. I was very satisfied with
+                  his work and will definitely call him for more inspections in the near future..</p>
+              </div>
+              <ul class="list-group list-group-flush">
+
+              </ul>
+              <div class="card-body">
+                <a href="https://www.google.com/search?q=fullscan+home+inspections&oq=fullscan+home+inspections+&aqs=chrome..69i57j69i60.3252j0j7&sourceid=chrome&ie=UTF-8" class="card-link">More Reviews</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col col-sm">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Salahadin Alawie</h5>
+                <p class="card-text">Positive: Professionalism, Punctuality, Quality...
+
+                  I hired Full Scan to do my home inspection. They were very helpful, professional, and did a great job. The report was thorough and and Ahmed explained his findings very well. I was really satisfied with the inspection and experience
+                  and definitely recommend this company.
+                  Service: Manufactured home inspections...</p>
+              </div>
+              <ul class="list-group list-group-flush">
+
+              </ul>
+              <div class="card-body">
+                <a href="https://www.google.com/search?q=fullscan+home+inspections&oq=fullscan+home+inspections+&aqs=chrome..69i57j69i60.3252j0j7&sourceid=chrome&ie=UTF-8" class="card-link">More Reviews</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <!---->
+      <hr style="height:1px;border-width:0;color:rgb(16, 36, 61);background-color:rgb(16, 36, 61)">
+      <!---->
+    </section>
+
+
+    <section id="conacc" class=" conta container gallery-container">
+      <div class="form-signin">
+
+        <form action="mailto:ahmedsharif17@gmail.com" method="post" enctype="text/plain">
+
+          <h1 class="h3 mb-3 fw-normal">Contact Us</h1>
+
+          <input type="text" name="firstName" class="form-control top" placeholder="First Name" required>
+          <input type="text" name="lastName" class="form-control middle" placeholder="Last Name" required>
+          <input type="email" name="emailadd" class="form-control bottom" placeholder="Email" required>
+          <textarea style="width: 100%;" type="textarea" name="textar" class="form-control bottom" placeholder="Your Message Here!" ></textarea>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Send Email</button>
+          <!-- <a href="mailto:khodr@umich.edu.com?subject=Waisons inquery &body=textar"><i class="fa-solid fa-envelope footer-icon ">  Click to send!</i></a> -->
+        </form>
+
+      </div>
+
+    </section>
+
+
+
+
+    <!---->
+    <!-- <hr style="height:1px;border-width:0;color:rgb(16, 36, 61);background-color:rgb(16, 36, 61)"> -->
+    <!---->
+
+    <footer id="footer">
+
+      <div class="footer">
+
+        <a href="https://twitter.com/?lang=en"><i class=" footer-icon fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa-brands footer-icon fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram footer-icon "></i></a>
+        <a href="mailto:someone@yoursite.com"><i class="fa-solid fa-envelope footer-icon "></i></a>
+
+        <p class="">&copy; Full Scans Home Inspections LLC 2022</p>
+      </div>
+      <!-- <hr style="height:1px;border-width:0;color:rgb(16, 36, 61);background-color:rgb(16, 36, 61)"> -->
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+    <!-- gallery cdn + js -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run('.tz-gallery');
+    </script>
+    <!-- Gallery cdn + js -->
+
+    <script src="scripts/index.js" charset="utf-8"></script>
+</body>
+
+</html>
