@@ -1,4 +1,7 @@
 # fullscan
+This was a final project for a Class I was taking back at university. 
+This is a simple SPA that is designed using express and bootstrap. 
+
 code for fullscanhomeinspections.com 
 
 How to set up local dev environment to get files locally on any machine and add / make changes 
