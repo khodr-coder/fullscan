@@ -7,7 +7,7 @@ code for fullscanhomeinspections.com
 How to set up local dev environment to get files locally on any machine and add / make changes 
 
 Step 1: <br>
-Clone the project uwsing the following command <br>
+Clone the project using the following command <br>
 ---> `git clone <copied .git extension link>`
 
 Step 2: <br>
